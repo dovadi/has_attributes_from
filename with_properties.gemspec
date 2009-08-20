@@ -1,7 +1,7 @@
 --- !ruby/object:Gem::Specification 
 name: with_properties
 version: !ruby/object:Gem::Version 
-  version: "0.1"
+  version: 0.1.1
 platform: ruby
 authors: 
 - Frank Oxener

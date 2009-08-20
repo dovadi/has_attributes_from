@@ -15,7 +15,7 @@ task :default => ['test:with_properties']
 namespace :with_properties do
   gem_spec = Gem::Specification.new do |gem_spec|
     gem_spec.name        = "with_properties"
-    gem_spec.version     = "0.1"
+    gem_spec.version     = "0.1.1"
     gem_spec.summary     = "Add extra properties to individual STI subclasses (ActiveRecord)."
     gem_spec.email       = "frank.oxener@dovadi.com"
     gem_spec.homepage    = "http://github.com/dovadi/with_properties"
