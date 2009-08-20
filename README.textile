@@ -1,0 +1,79 @@
+h2. With_properties
+
+Download: http://github.com/dovadi/with_properties
+
+h2. Description:
+
+Add extra properties to individual STI subclasses (ActiveRecord)
+
+h2. Synopsis:
+
+h4. Setup
+<pre>
+  create_table "customer_details", :force => true do |t|
+    t.string   "phone"
+    t.integer  "customer_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "people", :force => true do |t|
+    t.string   "type"
+    t.string   "name"
+    t.string   "email"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+</pre>
+
+h4. Example
+<pre>
+  class Person < ActiveRecord::Base
+  end
+  
+  class Customer < Person
+    with_properties :customer_details
+    validates_uniqeness_of :phone
+  end
+  
+  customer = Customer.create(:name =>'Dovadi', :email=>'frank@dovadi.com', :phone=>'0649416406')
+  customer.update_attributes(:phone=>'0222300100')
+</pre>
+
+h2. Install:
+
+* git clone http://github.com/dovadi/with_properties
+
+* sudo gem install dovadi-with_properties
+
+h2. Credits
+
+This project is funded and maintained by "Agile Dovadi BV":http://dovadi.com, contact "Frank Oxener":mailto:frank@dovadi.com
+
+
+h2. Licence:
+
+<pre>
+(The MIT License)
+
+Copyright (c) 2009 Frank Oxener - Agile Dovadi B.V.
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+'Software'), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+</pre>
