@@ -55,9 +55,6 @@ files:
 - test/rails_root/db/migrate/20090820110621_create_customer_details.rb
 - test/rails_root/db/schema.rb
 - test/rails_root/db/test.sqlite3
-- test/rails_root/log
-- test/rails_root/log/test.log
-- test/rails_root/test
 - test/test_helper.rb
 - test/unit
 - test/unit/customer_detail_test.rb
@@ -68,8 +65,6 @@ files:
 - test/unit/person_test.rb
 has_rdoc: false
 homepage: http://github.com/dovadi/with_properties
-licenses: []
-
 post_install_message: 
 rdoc_options: []
 
@@ -90,9 +85,9 @@ required_rubygems_version: !ruby/object:Gem::Requirement
 requirements: []
 
 rubyforge_project: 
-rubygems_version: 1.3.2
+rubygems_version: 1.3.1
 signing_key: 
-specification_version: 3
+specification_version: 2
 summary: Add extra properties to individual STI subclasses (ActiveRecord).
 test_files: []
 
