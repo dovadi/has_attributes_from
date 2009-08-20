@@ -1,0 +1,12 @@
+History.txt
+Manifest.txt
+PostInstall.txt
+README.rdoc
+Rakefile
+lib/with_properties.rb
+script/console
+script/destroy
+script/generate
+tasks/shoulda.rake
+test/test_helper.rb
+test/test_with_properties.rb
