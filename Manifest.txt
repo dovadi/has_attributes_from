@@ -2,9 +2,9 @@ History.txt
 Manifest.txt
 README.textile
 Rakefile
-lib/with_properties/core.rb
-lib/with_properties.rb
-tasks/with_properties.rake
+lib/has_attributes_from/base.rb
+lib/has_attributes_from.rb
+tasks/has_attributes_from.rake
 test/factories/general.rb
 test/rails_root/app/models/customer.rb
 test/rails_root/app/models/customer_detail.rb

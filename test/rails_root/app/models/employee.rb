@@ -1,3 +1,3 @@
 class Employee < Person
-  with_properties :employee_property
+  has_attributes_from :employee_property
 end

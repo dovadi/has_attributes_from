@@ -1,5 +1,5 @@
-module WithProperties
-  module Core
+module HasAttributesFrom
+  module Base
 
     def self.included(base)
       base.extend(ClassMethods)
@@ -7,41 +7,41 @@ module WithProperties
 
     module ClassMethods
 
-      def with_properties table
-        properties = table.to_s
+      def has_attributes_from table
+        @properties = table.to_s
         has_one table
         before_save :save_properties
 
-        define_getters_and_setters(properties)
-        define_save_properties(properties)
-        override_create(properties)
+        define_getters_and_setters
+        define_save_properties
+        override_create
       end
 
       private
 
-      def define_save_properties(properties)
+      def define_save_properties
         class_eval %{
           def save_properties
-            #{properties}.save if #{properties} && #{properties}.changed?
+            #{@properties}.save if #{@properties} && #{@properties}.changed?
           end
         }
       end
 
-      def define_getters_and_setters(properties)
-        column_names = properties.camelize.constantize.column_names.reject {|column| column=~/^id$|_id|_at/}
+      def define_getters_and_setters
+        column_names = @properties.camelize.constantize.column_names.reject {|column| column=~/^id$|_id|_at/}
         column_names.each do |column|
           class_eval %{
             def #{column}
-              #{properties}.nil? ? '' : #{properties}.#{column}
+              #{@properties}.nil? ? '' : #{@properties}.#{column}
             end
             def #{column}=(value)
-              #{properties}.#{column}=value if #{properties}
+              #{@properties}.#{column}=value if #{@properties}
             end
           }
         end
       end
 
-      def override_create(properties)
+      def override_create
         instance_eval %{
           def create(attributes = nil, &block)
             attributes.stringify_keys!
@@ -59,9 +59,9 @@ module WithProperties
               parent_attributes[k]=v if parent_attribute_keys.include?(k) || attributes_only_associated_keys.include?(k)
               property_attributes[k]=v if property_attribute_keys.include?(k)
             end
-            instance_of_property_model = "#{properties}".camelize.constantize.new(property_attributes)
+            instance_of_property_model = "#{@properties}".camelize.constantize.new(property_attributes)
 
-            attributes = parent_attributes.merge(:#{properties}=>instance_of_property_model)
+            attributes = parent_attributes.merge(:#{@properties}=>instance_of_property_model)
 
             super
           end

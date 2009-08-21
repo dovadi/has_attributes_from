@@ -9,7 +9,7 @@ class CustomerTest < Test::Unit::TestCase
     end
 
     should_have_one  :customer_detail
-    should_have_class_methods :with_properties
+    should_have_class_methods :has_attributes_from
     should_have_instance_methods :save_properties
     should_have_instance_methods :phone
     should_have_instance_methods :phone=

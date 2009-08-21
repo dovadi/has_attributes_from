@@ -5,7 +5,7 @@ $: << File.join(File.dirname(__FILE__))
 
 ENV["RAILS_ENV"] = "test"
 
-require 'with_properties'
+require 'has_attributes_from'
 require File.expand_path(File.dirname(__FILE__) + "/rails_root/config/environment")
 require 'test_help'
 require 'shoulda'

@@ -1,3 +1,7 @@
 === 0.0.1 2009-08-20
 
 * Initial release
+
+=== 0.1.2 2009-08-21
+
+* Rename gem to 'has_attributes_from' and some cleanup of the code

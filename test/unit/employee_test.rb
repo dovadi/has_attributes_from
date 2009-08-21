@@ -9,7 +9,7 @@ class EmployeeTest < Test::Unit::TestCase
     end
 
     should_have_one  :employee_property
-    should_have_class_methods :with_properties
+    should_have_class_methods :has_attributes_from
     should_have_instance_methods :save_properties
     should_have_instance_methods :department
     should_have_instance_methods :department=
