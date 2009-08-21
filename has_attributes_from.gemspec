@@ -1,5 +1,5 @@
 --- !ruby/object:Gem::Specification 
-name: with_properties
+name: has_attributes_from
 version: !ruby/object:Gem::Version 
   version: 0.1.1
 platform: ruby
@@ -9,11 +9,11 @@ autorequire:
 bindir: bin
 cert_chain: []
 
-date: 2009-08-20 00:00:00 +02:00
+date: 2009-08-21 00:00:00 +02:00
 default_executable: 
 dependencies: []
 
-description: Add extra properties to individual STI subclasses (ActiveRecord)
+description: Merge the attributes from another ActiveRecord class to an individual STI subclass.
 email: frank.oxener@dovadi.com
 executables: []
 
@@ -26,10 +26,10 @@ files:
 - Manifest.txt
 - Rakefile
 - README.textile
-- lib/with_properties
-- lib/with_properties/core.rb
-- lib/with_properties.rb
-- tasks/with_properties.rake
+- lib/has_attributes_from
+- lib/has_attributes_from/base.rb
+- lib/has_attributes_from.rb
+- tasks/has_attributes_from.rake
 - test/factories
 - test/factories/general.rb
 - test/rails_root
@@ -55,6 +55,8 @@ files:
 - test/rails_root/db/migrate/20090820110621_create_customer_details.rb
 - test/rails_root/db/schema.rb
 - test/rails_root/db/test.sqlite3
+- test/rails_root/log
+- test/rails_root/log/test.log
 - test/test_helper.rb
 - test/unit
 - test/unit/customer_detail_test.rb
@@ -64,7 +66,9 @@ files:
 - test/unit/manager_test.rb
 - test/unit/person_test.rb
 has_rdoc: false
-homepage: http://github.com/dovadi/with_properties
+homepage: http://github.com/dovadi/has_attributes_from
+licenses: []
+
 post_install_message: 
 rdoc_options: []
 
@@ -85,9 +89,9 @@ required_rubygems_version: !ruby/object:Gem::Requirement
 requirements: []
 
 rubyforge_project: 
-rubygems_version: 1.3.1
+rubygems_version: 1.3.2
 signing_key: 
-specification_version: 2
-summary: Add extra properties to individual STI subclasses (ActiveRecord).
+specification_version: 3
+summary: Merge the attributes from another ActiveRecord class to an individual STI subclass.
 test_files: []
 
