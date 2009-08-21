@@ -1,7 +1,7 @@
 --- !ruby/object:Gem::Specification 
 name: has_attributes_from
 version: !ruby/object:Gem::Version 
-  version: 0.1.1
+  version: 0.1.2
 platform: ruby
 authors: 
 - Frank Oxener
@@ -55,8 +55,6 @@ files:
 - test/rails_root/db/migrate/20090820110621_create_customer_details.rb
 - test/rails_root/db/schema.rb
 - test/rails_root/db/test.sqlite3
-- test/rails_root/log
-- test/rails_root/log/test.log
 - test/test_helper.rb
 - test/unit
 - test/unit/customer_detail_test.rb
