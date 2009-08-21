@@ -10,71 +10,57 @@ h2. Synopsis:
 
 h4. Setup
 <pre>
-  create_table "child_details", :force => true do |t|
-    t.string   "nickname"
-    t.string   "allergy"
-    t.integer  "client_id"
-  end
-</pre>
-<pre>
-  create_table "caretaker_details", :force => true do |t|
-    t.string   "relation"
-    t.integer  "caretaker_id"
-  end
-</pre>
-<pre>
-  create_table "people", :force => true do |t|
-    t.string   "type"
-    t.string   "firstname"
-    t.string   "lastname"
-    t.string   "email"
-  end
+create_table "child_details", :force => true do |t|
+  t.string   "nickname"
+  t.string   "allergy"
+  t.integer  "client_id"
+end
+
+create_table "caretaker_details", :force => true do |t|
+  t.string   "relation"
+  t.integer  "caretaker_id"
+end
+
+create_table "people", :force => true do |t|
+  t.string   "type"
+  t.string   "firstname"
+  t.string   "lastname"
+  t.string   "email"
+end
 </pre>
 
 h4. Example
 <pre>
-  class Person < ActiveRecord::Base
-  end
-</pre>
-<pre>  
-  class Child < Person
-    has_attributes_from :child_details
-    validates_presence_of :nickname
-  end
-</pre>
-<pre>
-  class Caretaker < Person
-    has_attributes_from :caretaker_details
-  end
-</pre>
-<pre>
-  child = Child.create(:firstname =>'William', :lastname=>'Gates' :email=>'bgates@microsoft.com', :nickname=>'Bill')
-  child.update_attributes(:allergy=>'Not allowed to eat apples!')
-</pre>
-<pre>
-  caretaker = Caretaker.create(:firstname =>'William H.', :lastname=>'Gates' :email=>'w.h.gates@gmail.com')
-  caretaker.update_attribute(:relation, 'Daddy')
+class Person < ActiveRecord::Base
+end
+
+class Child < Person
+  has_attributes_from :child_details
+  validates_presence_of :nickname
+end
+
+class Caretaker < Person
+  has_attributes_from :caretaker_details
+end
+
+child = Child.create(:firstname =>'William', :lastname=>'Gates' :email=>'bgates@microsoft.com', :nickname=>'Bill')
+child.update_attributes(:allergy=>'Not allowed to eat apples!')
+
+caretaker = Caretaker.create(:firstname =>'William H.', :lastname=>'Gates' :email=>'w.h.gates@gmail.com')
+caretaker.update_attribute(:relation, 'Daddy')
 </pre>
 
 h2. Install:
 
 <pre>
 *  git clone http://github.com/dovadi/has_attributes_from or
-</pre>
-
-<pre>
 *  sudo gem install dovadi-has_attributes_from -s http://gems.github.com or
-</pre>
-
-<pre>
 *  Add the following to your environment.rb:
-</pre>
 
-<pre>
-  config.gem 'dovadi-has_attributes_from',
-             :lib => 'has_attributes_from',
-             :version => '>=0.1.1',
-             :source => 'http://gems.github.com'
+config.gem 'dovadi-has_attributes_from',
+           :lib => 'has_attributes_from',
+           :version => '>=0.1.1',
+           :source => 'http://gems.github.com'
 </pre>
 
 h2. Test
