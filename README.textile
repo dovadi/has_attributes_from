@@ -61,7 +61,7 @@ config.gem 'dovadi-has_attributes_from',
 
 h2. Test
 
-* You can run the tests from this gem bij rake test:default (You need to install the Shoulda and Factory_girl gems)
+* You can run the tests from this gem with rake test:default (you need to install the Shoulda and Factory_girl gems).
 
 h2. Credits
 
