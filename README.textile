@@ -6,9 +6,8 @@ h2. Description:
 
 Merge the attributes from another ActiveRecord class to an individual STI subclass.
 
-h2. Synopsis:
+h2. Example:
 
-h4. Setup
 <pre>
 create_table "child_details", :force => true do |t|
   t.string   "nickname"
@@ -27,10 +26,7 @@ create_table "people", :force => true do |t|
   t.string   "lastname"
   t.string   "email"
 end
-</pre>
 
-h4. Example
-<pre>
 class Person < ActiveRecord::Base
 end
 
