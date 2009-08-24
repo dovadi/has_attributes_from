@@ -1,0 +1,135 @@
+# Logfile created on Mon Aug 24 11:12:37 +0200 2009  [4;36;1mCustomerDetail Create (12.8ms)[0m   [0;1mINSERT INTO "customer_details" ("updated_at", "customer_id", "phone", "created_at") VALUES('2009-08-24 11:12:38', NULL, '', '2009-08-24 11:12:38')[0m
+  [4;35;1mCustomer Create (1.1ms)[0m   [0mINSERT INTO "people" ("name", "updated_at", "type", "email", "created_at") VALUES(NULL, '2009-08-24 11:12:38', 'Customer', NULL, '2009-08-24 11:12:38')[0m
+  [4;36;1mCustomerDetail Create (0.3ms)[0m   [0;1mINSERT INTO "customer_details" ("updated_at", "customer_id", "phone", "created_at") VALUES('2009-08-24 11:12:38', 1, '0222311304', '2009-08-24 11:12:38')[0m
+  [4;35;1mCustomerDetail Load (5.5ms)[0m   [0mSELECT * FROM "customer_details" WHERE ("customer_details".customer_id = 905) LIMIT 1[0m
+  [4;36;1mCustomerDetail Update (0.4ms)[0m   [0;1mUPDATE "customer_details" SET "customer_id" = 905, "updated_at" = '2009-08-24 11:12:38' WHERE "id" = 594[0m
+  [4;35;1mCustomer Create (0.3ms)[0m   [0mINSERT INTO "people" ("name", "updated_at", "type", "email", "created_at") VALUES(NULL, '2009-08-24 11:12:38', 'Customer', NULL, '2009-08-24 11:12:38')[0m
+  [4;36;1mCustomerDetail Create (0.4ms)[0m   [0;1mINSERT INTO "customer_details" ("updated_at", "customer_id", "phone", "created_at") VALUES('2009-08-24 11:12:38', 1, '0222311304', '2009-08-24 11:12:38')[0m
+  [4;35;1mCustomerDetail Load (0.4ms)[0m   [0mSELECT * FROM "customer_details" WHERE ("customer_details".customer_id = 906) LIMIT 1[0m
+  [4;36;1mCustomerDetail Update (0.4ms)[0m   [0;1mUPDATE "customer_details" SET "customer_id" = 906, "updated_at" = '2009-08-24 11:12:38' WHERE "id" = 595[0m
+  [4;35;1mCustomerDetail Create (0.5ms)[0m   [0mINSERT INTO "customer_details" ("updated_at", "customer_id", "phone", "created_at") VALUES('2009-08-24 11:12:39', NULL, '0649416406', '2009-08-24 11:12:39')[0m
+  [4;36;1mCustomer Create (0.2ms)[0m   [0;1mINSERT INTO "people" ("name", "updated_at", "type", "email", "created_at") VALUES('Dovadi', '2009-08-24 11:12:39', 'Customer', 'frank@dovadi.com', '2009-08-24 11:12:39')[0m
+  [4;35;1mCustomerDetail Update (0.1ms)[0m   [0mUPDATE "customer_details" SET "customer_id" = 907, "updated_at" = '2009-08-24 11:12:39' WHERE "id" = 596[0m
+  [4;36;1mCustomer Create (0.4ms)[0m   [0;1mINSERT INTO "people" ("name", "updated_at", "type", "email", "created_at") VALUES(NULL, '2009-08-24 11:12:39', 'Customer', NULL, '2009-08-24 11:12:39')[0m
+  [4;35;1mCustomerDetail Create (0.3ms)[0m   [0mINSERT INTO "customer_details" ("updated_at", "customer_id", "phone", "created_at") VALUES('2009-08-24 11:12:39', 1, '0222311304', '2009-08-24 11:12:39')[0m
+  [4;36;1mCustomerDetail Load (0.3ms)[0m   [0;1mSELECT * FROM "customer_details" WHERE ("customer_details".customer_id = 908) LIMIT 1[0m
+  [4;35;1mCustomerDetail Update (0.3ms)[0m   [0mUPDATE "customer_details" SET "customer_id" = 908, "updated_at" = '2009-08-24 11:12:39' WHERE "id" = 597[0m
+  [4;36;1mCustomer Create (0.4ms)[0m   [0;1mINSERT INTO "people" ("name", "updated_at", "type", "email", "created_at") VALUES(NULL, '2009-08-24 11:12:39', 'Customer', NULL, '2009-08-24 11:12:39')[0m
+  [4;35;1mCustomerDetail Create (0.3ms)[0m   [0mINSERT INTO "customer_details" ("updated_at", "customer_id", "phone", "created_at") VALUES('2009-08-24 11:12:39', 1, '0222311304', '2009-08-24 11:12:39')[0m
+  [4;36;1mCustomerDetail Load (0.3ms)[0m   [0;1mSELECT * FROM "customer_details" WHERE ("customer_details".customer_id = 909) LIMIT 1[0m
+  [4;35;1mCustomerDetail Update (0.4ms)[0m   [0mUPDATE "customer_details" SET "customer_id" = 909, "updated_at" = '2009-08-24 11:12:39' WHERE "id" = 598[0m
+  [4;36;1mCustomer Create (0.4ms)[0m   [0;1mINSERT INTO "people" ("name", "updated_at", "type", "email", "created_at") VALUES(NULL, '2009-08-24 11:12:39', 'Customer', NULL, '2009-08-24 11:12:39')[0m
+  [4;35;1mCustomerDetail Create (0.3ms)[0m   [0mINSERT INTO "customer_details" ("updated_at", "customer_id", "phone", "created_at") VALUES('2009-08-24 11:12:39', 1, '0222311304', '2009-08-24 11:12:39')[0m
+  [4;36;1mCustomerDetail Load (0.3ms)[0m   [0;1mSELECT * FROM "customer_details" WHERE ("customer_details".customer_id = 910) LIMIT 1[0m
+  [4;35;1mCustomerDetail Update (0.3ms)[0m   [0mUPDATE "customer_details" SET "customer_id" = 910, "updated_at" = '2009-08-24 11:12:39' WHERE "id" = 599[0m
+  [4;36;1mCustomer Create (0.3ms)[0m   [0;1mINSERT INTO "people" ("name", "updated_at", "type", "email", "created_at") VALUES(NULL, '2009-08-24 11:12:39', 'Customer', NULL, '2009-08-24 11:12:39')[0m
+  [4;35;1mCustomerDetail Create (0.3ms)[0m   [0mINSERT INTO "customer_details" ("updated_at", "customer_id", "phone", "created_at") VALUES('2009-08-24 11:12:39', 1, '0222311304', '2009-08-24 11:12:39')[0m
+  [4;36;1mCustomerDetail Load (0.3ms)[0m   [0;1mSELECT * FROM "customer_details" WHERE ("customer_details".customer_id = 911) LIMIT 1[0m
+  [4;35;1mCustomerDetail Update (0.3ms)[0m   [0mUPDATE "customer_details" SET "customer_id" = 911, "updated_at" = '2009-08-24 11:12:39' WHERE "id" = 600[0m
+  [4;36;1mCustomer Create (0.4ms)[0m   [0;1mINSERT INTO "people" ("name", "updated_at", "type", "email", "created_at") VALUES(NULL, '2009-08-24 11:12:39', 'Customer', NULL, '2009-08-24 11:12:39')[0m
+  [4;35;1mCustomerDetail Create (0.4ms)[0m   [0mINSERT INTO "customer_details" ("updated_at", "customer_id", "phone", "created_at") VALUES('2009-08-24 11:12:39', 1, '0222311304', '2009-08-24 11:12:39')[0m
+  [4;36;1mCustomerDetail Load (0.4ms)[0m   [0;1mSELECT * FROM "customer_details" WHERE ("customer_details".customer_id = 912) LIMIT 1[0m
+  [4;35;1mCustomerDetail Update (0.3ms)[0m   [0mUPDATE "customer_details" SET "customer_id" = 912, "updated_at" = '2009-08-24 11:12:39' WHERE "id" = 601[0m
+  [4;36;1mCustomer Create (0.4ms)[0m   [0;1mINSERT INTO "people" ("name", "updated_at", "type", "email", "created_at") VALUES(NULL, '2009-08-24 11:12:39', 'Customer', NULL, '2009-08-24 11:12:39')[0m
+  [4;35;1mCustomerDetail Create (0.3ms)[0m   [0mINSERT INTO "customer_details" ("updated_at", "customer_id", "phone", "created_at") VALUES('2009-08-24 11:12:39', 1, '0222311304', '2009-08-24 11:12:39')[0m
+  [4;36;1mCustomerDetail Load (0.3ms)[0m   [0;1mSELECT * FROM "customer_details" WHERE ("customer_details".customer_id = 913) LIMIT 1[0m
+  [4;35;1mCustomerDetail Update (0.3ms)[0m   [0mUPDATE "customer_details" SET "customer_id" = 913, "updated_at" = '2009-08-24 11:12:39' WHERE "id" = 602[0m
+  [4;36;1mCustomer Create (0.4ms)[0m   [0;1mINSERT INTO "people" ("name", "updated_at", "type", "email", "created_at") VALUES(NULL, '2009-08-24 11:12:39', 'Customer', NULL, '2009-08-24 11:12:39')[0m
+  [4;35;1mCustomerDetail Create (0.3ms)[0m   [0mINSERT INTO "customer_details" ("updated_at", "customer_id", "phone", "created_at") VALUES('2009-08-24 11:12:39', 1, '0222311304', '2009-08-24 11:12:39')[0m
+  [4;36;1mCustomerDetail Load (0.3ms)[0m   [0;1mSELECT * FROM "customer_details" WHERE ("customer_details".customer_id = 914) LIMIT 1[0m
+  [4;35;1mCustomerDetail Update (0.3ms)[0m   [0mUPDATE "customer_details" SET "customer_id" = 914, "updated_at" = '2009-08-24 11:12:39' WHERE "id" = 603[0m
+  [4;36;1mCustomer Create (0.3ms)[0m   [0;1mINSERT INTO "people" ("name", "updated_at", "type", "email", "created_at") VALUES('Dovadi', '2009-08-24 11:12:39', 'Customer', 'frank@dovadi.com', '2009-08-24 11:12:39')[0m
+  [4;35;1mCustomerDetail Create (0.1ms)[0m   [0mINSERT INTO "customer_details" ("updated_at", "customer_id", "phone", "created_at") VALUES('2009-08-24 11:12:39', 915, NULL, '2009-08-24 11:12:39')[0m
+  [4;36;1mCustomerDetail Update (0.3ms)[0m   [0;1mUPDATE "customer_details" SET "phone" = '0222300100', "updated_at" = '2009-08-24 11:12:39' WHERE "id" = 604[0m
+  [4;35;1mCustomer Load (0.5ms)[0m   [0mSELECT * FROM "people" WHERE ("people"."id" = 915) AND ( ("people"."type" = 'Customer' ) ) [0m
+  [4;36;1mCustomerDetail Load (0.5ms)[0m   [0;1mSELECT * FROM "customer_details" WHERE ("customer_details".customer_id = 915) LIMIT 1[0m
+  [4;35;1mCustomer Create (0.4ms)[0m   [0mINSERT INTO "people" ("name", "updated_at", "type", "email", "created_at") VALUES(NULL, '2009-08-24 11:12:39', 'Customer', NULL, '2009-08-24 11:12:39')[0m
+  [4;36;1mCustomerDetail Create (0.3ms)[0m   [0;1mINSERT INTO "customer_details" ("updated_at", "customer_id", "phone", "created_at") VALUES('2009-08-24 11:12:39', 1, '0222311304', '2009-08-24 11:12:39')[0m
+  [4;35;1mCustomerDetail Load (0.4ms)[0m   [0mSELECT * FROM "customer_details" WHERE ("customer_details".customer_id = 916) LIMIT 1[0m
+  [4;36;1mCustomerDetail Update (0.4ms)[0m   [0;1mUPDATE "customer_details" SET "customer_id" = 916, "updated_at" = '2009-08-24 11:12:39' WHERE "id" = 605[0m
+  [4;35;1mCustomer Create (0.4ms)[0m   [0mINSERT INTO "people" ("name", "updated_at", "type", "email", "created_at") VALUES('Dovadi', '2009-08-24 11:12:39', 'Customer', 'frank@dovadi.com', '2009-08-24 11:12:39')[0m
+  [4;36;1mCustomerDetail Create (0.1ms)[0m   [0;1mINSERT INTO "customer_details" ("updated_at", "customer_id", "phone", "created_at") VALUES('2009-08-24 11:12:39', 917, NULL, '2009-08-24 11:12:39')[0m
+  [4;35;1mCustomerDetail Update (0.3ms)[0m   [0mUPDATE "customer_details" SET "phone" = '0222300200', "updated_at" = '2009-08-24 11:12:39' WHERE "id" = 606[0m
+  [4;36;1mCustomer Load (0.4ms)[0m   [0;1mSELECT * FROM "people" WHERE ("people"."id" = 917) AND ( ("people"."type" = 'Customer' ) ) [0m
+  [4;35;1mCustomerDetail Load (0.5ms)[0m   [0mSELECT * FROM "customer_details" WHERE ("customer_details".customer_id = 917) LIMIT 1[0m
+  [4;36;1mCustomer Create (0.4ms)[0m   [0;1mINSERT INTO "people" ("name", "updated_at", "type", "email", "created_at") VALUES(NULL, '2009-08-24 11:12:39', 'Customer', NULL, '2009-08-24 11:12:39')[0m
+  [4;35;1mCustomerDetail Create (0.3ms)[0m   [0mINSERT INTO "customer_details" ("updated_at", "customer_id", "phone", "created_at") VALUES('2009-08-24 11:12:39', 1, '0222311304', '2009-08-24 11:12:39')[0m
+  [4;36;1mCustomerDetail Load (0.3ms)[0m   [0;1mSELECT * FROM "customer_details" WHERE ("customer_details".customer_id = 918) LIMIT 1[0m
+  [4;35;1mCustomerDetail Update (0.3ms)[0m   [0mUPDATE "customer_details" SET "customer_id" = 918, "updated_at" = '2009-08-24 11:12:39' WHERE "id" = 607[0m
+  [4;36;1mCustomerDetail Update (0.4ms)[0m   [0;1mUPDATE "customer_details" SET "phone" = '', "updated_at" = '2009-08-24 11:12:39' WHERE "id" = 607[0m
+  [4;35;1mCustomer Create (0.4ms)[0m   [0mINSERT INTO "people" ("name", "updated_at", "type", "email", "created_at") VALUES(NULL, '2009-08-24 11:12:39', 'Customer', NULL, '2009-08-24 11:12:39')[0m
+  [4;36;1mCustomerDetail Create (0.5ms)[0m   [0;1mINSERT INTO "customer_details" ("updated_at", "customer_id", "phone", "created_at") VALUES('2009-08-24 11:12:39', 1, '0222311304', '2009-08-24 11:12:39')[0m
+  [4;35;1mCustomerDetail Load (0.3ms)[0m   [0mSELECT * FROM "customer_details" WHERE ("customer_details".customer_id = 919) LIMIT 1[0m
+  [4;36;1mCustomerDetail Update (0.4ms)[0m   [0;1mUPDATE "customer_details" SET "customer_id" = 919, "updated_at" = '2009-08-24 11:12:39' WHERE "id" = 608[0m
+  [4;35;1mCustomer Create (0.4ms)[0m   [0mINSERT INTO "people" ("name", "updated_at", "type", "email", "created_at") VALUES(NULL, '2009-08-24 11:12:39', 'Customer', NULL, '2009-08-24 11:12:39')[0m
+  [4;36;1mCustomerDetail Create (0.3ms)[0m   [0;1mINSERT INTO "customer_details" ("updated_at", "customer_id", "phone", "created_at") VALUES('2009-08-24 11:12:39', 1, '0222311304', '2009-08-24 11:12:39')[0m
+  [4;35;1mCustomerDetail Load (0.3ms)[0m   [0mSELECT * FROM "customer_details" WHERE ("customer_details".customer_id = 920) LIMIT 1[0m
+  [4;36;1mCustomerDetail Update (0.3ms)[0m   [0;1mUPDATE "customer_details" SET "customer_id" = 920, "updated_at" = '2009-08-24 11:12:39' WHERE "id" = 609[0m
+  [4;35;1mCustomer Create (0.5ms)[0m   [0mINSERT INTO "people" ("name", "updated_at", "type", "email", "created_at") VALUES(NULL, '2009-08-24 11:12:39', 'Customer', NULL, '2009-08-24 11:12:39')[0m
+  [4;36;1mCustomerDetail Create (0.4ms)[0m   [0;1mINSERT INTO "customer_details" ("updated_at", "customer_id", "phone", "created_at") VALUES('2009-08-24 11:12:39', 1, '0222311304', '2009-08-24 11:12:39')[0m
+  [4;35;1mCustomerDetail Load (0.3ms)[0m   [0mSELECT * FROM "customer_details" WHERE ("customer_details".customer_id = 921) LIMIT 1[0m
+  [4;36;1mCustomerDetail Update (0.3ms)[0m   [0;1mUPDATE "customer_details" SET "customer_id" = 921, "updated_at" = '2009-08-24 11:12:39' WHERE "id" = 610[0m
+  [4;35;1mEmployeeProperty Create (0.5ms)[0m   [0mINSERT INTO "employee_properties" ("department", "updated_at", "reports_to", "employee_id", "created_at") VALUES(NULL, '2009-08-24 11:12:39', NULL, NULL, '2009-08-24 11:12:39')[0m
+  [4;36;1mEmployee Create (0.4ms)[0m   [0;1mINSERT INTO "people" ("name", "updated_at", "type", "email", "created_at") VALUES(NULL, '2009-08-24 11:12:39', 'Employee', NULL, '2009-08-24 11:12:39')[0m
+  [4;35;1mEmployeeProperty Create (0.4ms)[0m   [0mINSERT INTO "employee_properties" ("department", "updated_at", "reports_to", "employee_id", "created_at") VALUES('Sales', '2009-08-24 11:12:39', 123, 1, '2009-08-24 11:12:39')[0m
+  [4;36;1mEmployeeProperty Load (0.3ms)[0m   [0;1mSELECT * FROM "employee_properties" WHERE ("employee_properties".employee_id = 922) LIMIT 1[0m
+  [4;35;1mEmployeeProperty Update (0.4ms)[0m   [0mUPDATE "employee_properties" SET "employee_id" = 922, "updated_at" = '2009-08-24 11:12:39' WHERE "id" = 255[0m
+  [4;36;1mEmployee Create (0.4ms)[0m   [0;1mINSERT INTO "people" ("name", "updated_at", "type", "email", "created_at") VALUES(NULL, '2009-08-24 11:12:39', 'Employee', NULL, '2009-08-24 11:12:39')[0m
+  [4;35;1mEmployeeProperty Create (0.3ms)[0m   [0mINSERT INTO "employee_properties" ("department", "updated_at", "reports_to", "employee_id", "created_at") VALUES('Sales', '2009-08-24 11:12:39', 123, 1, '2009-08-24 11:12:39')[0m
+  [4;36;1mEmployeeProperty Load (0.2ms)[0m   [0;1mSELECT * FROM "employee_properties" WHERE ("employee_properties".employee_id = 923) LIMIT 1[0m
+  [4;35;1mEmployeeProperty Update (0.3ms)[0m   [0mUPDATE "employee_properties" SET "employee_id" = 923, "updated_at" = '2009-08-24 11:12:39' WHERE "id" = 256[0m
+  [4;36;1mEmployeeProperty Create (0.7ms)[0m   [0;1mINSERT INTO "employee_properties" ("department", "updated_at", "reports_to", "employee_id", "created_at") VALUES('Customer support', '2009-08-24 11:12:39', 55, NULL, '2009-08-24 11:12:39')[0m
+  [4;35;1mEmployee Create (0.1ms)[0m   [0mINSERT INTO "people" ("name", "updated_at", "type", "email", "created_at") VALUES('Dovadi', '2009-08-24 11:12:39', 'Employee', 'frank@dovadi.com', '2009-08-24 11:12:39')[0m
+  [4;36;1mEmployeeProperty Update (0.1ms)[0m   [0;1mUPDATE "employee_properties" SET "employee_id" = 924, "updated_at" = '2009-08-24 11:12:39' WHERE "id" = 257[0m
+  [4;35;1mEmployee Create (0.3ms)[0m   [0mINSERT INTO "people" ("name", "updated_at", "type", "email", "created_at") VALUES(NULL, '2009-08-24 11:12:39', 'Employee', NULL, '2009-08-24 11:12:39')[0m
+  [4;36;1mEmployeeProperty Create (0.5ms)[0m   [0;1mINSERT INTO "employee_properties" ("department", "updated_at", "reports_to", "employee_id", "created_at") VALUES('Sales', '2009-08-24 11:12:39', 123, 1, '2009-08-24 11:12:39')[0m
+  [4;35;1mEmployeeProperty Load (0.2ms)[0m   [0mSELECT * FROM "employee_properties" WHERE ("employee_properties".employee_id = 925) LIMIT 1[0m
+  [4;36;1mEmployeeProperty Update (0.3ms)[0m   [0;1mUPDATE "employee_properties" SET "employee_id" = 925, "updated_at" = '2009-08-24 11:12:39' WHERE "id" = 258[0m
+  [4;35;1mEmployee Create (0.4ms)[0m   [0mINSERT INTO "people" ("name", "updated_at", "type", "email", "created_at") VALUES(NULL, '2009-08-24 11:12:39', 'Employee', NULL, '2009-08-24 11:12:39')[0m
+  [4;36;1mEmployeeProperty Create (0.4ms)[0m   [0;1mINSERT INTO "employee_properties" ("department", "updated_at", "reports_to", "employee_id", "created_at") VALUES('Sales', '2009-08-24 11:12:39', 123, 1, '2009-08-24 11:12:39')[0m
+  [4;35;1mEmployeeProperty Load (0.2ms)[0m   [0mSELECT * FROM "employee_properties" WHERE ("employee_properties".employee_id = 926) LIMIT 1[0m
+  [4;36;1mEmployeeProperty Update (0.3ms)[0m   [0;1mUPDATE "employee_properties" SET "employee_id" = 926, "updated_at" = '2009-08-24 11:12:39' WHERE "id" = 259[0m
+  [4;35;1mEmployee Create (0.4ms)[0m   [0mINSERT INTO "people" ("name", "updated_at", "type", "email", "created_at") VALUES(NULL, '2009-08-24 11:12:39', 'Employee', NULL, '2009-08-24 11:12:39')[0m
+  [4;36;1mEmployeeProperty Create (0.3ms)[0m   [0;1mINSERT INTO "employee_properties" ("department", "updated_at", "reports_to", "employee_id", "created_at") VALUES('Sales', '2009-08-24 11:12:39', 123, 1, '2009-08-24 11:12:39')[0m
+  [4;35;1mEmployeeProperty Load (0.2ms)[0m   [0mSELECT * FROM "employee_properties" WHERE ("employee_properties".employee_id = 927) LIMIT 1[0m
+  [4;36;1mEmployeeProperty Update (0.3ms)[0m   [0;1mUPDATE "employee_properties" SET "employee_id" = 927, "updated_at" = '2009-08-24 11:12:39' WHERE "id" = 260[0m
+  [4;35;1mEmployee Create (0.3ms)[0m   [0mINSERT INTO "people" ("name", "updated_at", "type", "email", "created_at") VALUES(NULL, '2009-08-24 11:12:39', 'Employee', NULL, '2009-08-24 11:12:39')[0m
+  [4;36;1mEmployeeProperty Create (0.5ms)[0m   [0;1mINSERT INTO "employee_properties" ("department", "updated_at", "reports_to", "employee_id", "created_at") VALUES('Sales', '2009-08-24 11:12:39', 123, 1, '2009-08-24 11:12:39')[0m
+  [4;35;1mEmployeeProperty Load (0.2ms)[0m   [0mSELECT * FROM "employee_properties" WHERE ("employee_properties".employee_id = 928) LIMIT 1[0m
+  [4;36;1mEmployeeProperty Update (0.3ms)[0m   [0;1mUPDATE "employee_properties" SET "employee_id" = 928, "updated_at" = '2009-08-24 11:12:39' WHERE "id" = 261[0m
+  [4;35;1mEmployee Create (0.4ms)[0m   [0mINSERT INTO "people" ("name", "updated_at", "type", "email", "created_at") VALUES(NULL, '2009-08-24 11:12:39', 'Employee', NULL, '2009-08-24 11:12:39')[0m
+  [4;36;1mEmployeeProperty Create (0.3ms)[0m   [0;1mINSERT INTO "employee_properties" ("department", "updated_at", "reports_to", "employee_id", "created_at") VALUES('Sales', '2009-08-24 11:12:39', 123, 1, '2009-08-24 11:12:39')[0m
+  [4;35;1mEmployeeProperty Load (0.2ms)[0m   [0mSELECT * FROM "employee_properties" WHERE ("employee_properties".employee_id = 929) LIMIT 1[0m
+  [4;36;1mEmployeeProperty Update (0.4ms)[0m   [0;1mUPDATE "employee_properties" SET "employee_id" = 929, "updated_at" = '2009-08-24 11:12:39' WHERE "id" = 262[0m
+  [4;35;1mEmployee Create (0.4ms)[0m   [0mINSERT INTO "people" ("name", "updated_at", "type", "email", "created_at") VALUES(NULL, '2009-08-24 11:12:39', 'Employee', NULL, '2009-08-24 11:12:39')[0m
+  [4;36;1mEmployeeProperty Create (0.4ms)[0m   [0;1mINSERT INTO "employee_properties" ("department", "updated_at", "reports_to", "employee_id", "created_at") VALUES('Sales', '2009-08-24 11:12:39', 123, 1, '2009-08-24 11:12:39')[0m
+  [4;35;1mEmployeeProperty Load (0.2ms)[0m   [0mSELECT * FROM "employee_properties" WHERE ("employee_properties".employee_id = 930) LIMIT 1[0m
+  [4;36;1mEmployeeProperty Update (0.3ms)[0m   [0;1mUPDATE "employee_properties" SET "employee_id" = 930, "updated_at" = '2009-08-24 11:12:39' WHERE "id" = 263[0m
+  [4;35;1mEmployee Create (0.4ms)[0m   [0mINSERT INTO "people" ("name", "updated_at", "type", "email", "created_at") VALUES(NULL, '2009-08-24 11:12:39', 'Employee', NULL, '2009-08-24 11:12:39')[0m
+  [4;36;1mEmployeeProperty Create (0.3ms)[0m   [0;1mINSERT INTO "employee_properties" ("department", "updated_at", "reports_to", "employee_id", "created_at") VALUES('Sales', '2009-08-24 11:12:39', 123, 1, '2009-08-24 11:12:39')[0m
+  [4;35;1mEmployeeProperty Load (0.3ms)[0m   [0mSELECT * FROM "employee_properties" WHERE ("employee_properties".employee_id = 931) LIMIT 1[0m
+  [4;36;1mEmployeeProperty Update (0.3ms)[0m   [0;1mUPDATE "employee_properties" SET "employee_id" = 931, "updated_at" = '2009-08-24 11:12:39' WHERE "id" = 264[0m
+  [4;35;1mEmployee Create (0.4ms)[0m   [0mINSERT INTO "people" ("name", "updated_at", "type", "email", "created_at") VALUES(NULL, '2009-08-24 11:12:39', 'Employee', NULL, '2009-08-24 11:12:39')[0m
+  [4;36;1mEmployeeProperty Create (0.5ms)[0m   [0;1mINSERT INTO "employee_properties" ("department", "updated_at", "reports_to", "employee_id", "created_at") VALUES('Sales', '2009-08-24 11:12:39', 123, 1, '2009-08-24 11:12:39')[0m
+  [4;35;1mEmployeeProperty Load (0.2ms)[0m   [0mSELECT * FROM "employee_properties" WHERE ("employee_properties".employee_id = 932) LIMIT 1[0m
+  [4;36;1mEmployeeProperty Update (0.3ms)[0m   [0;1mUPDATE "employee_properties" SET "employee_id" = 932, "updated_at" = '2009-08-24 11:12:39' WHERE "id" = 265[0m
+  [4;35;1mEmployee Create (0.4ms)[0m   [0mINSERT INTO "people" ("name", "updated_at", "type", "email", "created_at") VALUES(NULL, '2009-08-24 11:12:39', 'Employee', NULL, '2009-08-24 11:12:39')[0m
+  [4;36;1mEmployeeProperty Create (0.3ms)[0m   [0;1mINSERT INTO "employee_properties" ("department", "updated_at", "reports_to", "employee_id", "created_at") VALUES('Sales', '2009-08-24 11:12:39', 123, 1, '2009-08-24 11:12:39')[0m
+  [4;35;1mEmployeeProperty Load (0.3ms)[0m   [0mSELECT * FROM "employee_properties" WHERE ("employee_properties".employee_id = 933) LIMIT 1[0m
+  [4;36;1mEmployeeProperty Update (0.7ms)[0m   [0;1mUPDATE "employee_properties" SET "employee_id" = 933, "updated_at" = '2009-08-24 11:12:39' WHERE "id" = 266[0m
+  [4;35;1mEmployee Create (0.4ms)[0m   [0mINSERT INTO "people" ("name", "updated_at", "type", "email", "created_at") VALUES('Dovadi', '2009-08-24 11:12:39', 'Employee', 'frank@dovadi.com', '2009-08-24 11:12:39')[0m
+  [4;36;1mEmployeeProperty Create (0.1ms)[0m   [0;1mINSERT INTO "employee_properties" ("department", "updated_at", "reports_to", "employee_id", "created_at") VALUES(NULL, '2009-08-24 11:12:39', NULL, 934, '2009-08-24 11:12:39')[0m
+  [4;35;1mEmployeeProperty Update (0.3ms)[0m   [0mUPDATE "employee_properties" SET "reports_to" = 100, "updated_at" = '2009-08-24 11:12:39' WHERE "id" = 267[0m
+  [4;36;1mEmployee Load (0.4ms)[0m   [0;1mSELECT * FROM "people" WHERE ("people"."id" = 934) AND ( ("people"."type" = 'Employee' ) ) [0m
+  [4;35;1mEmployeeProperty Load (0.4ms)[0m   [0mSELECT * FROM "employee_properties" WHERE ("employee_properties".employee_id = 934) LIMIT 1[0m
+  [4;36;1mEmployee Create (0.8ms)[0m   [0;1mINSERT INTO "people" ("name", "updated_at", "type", "email", "created_at") VALUES(NULL, '2009-08-24 11:12:39', 'Employee', NULL, '2009-08-24 11:12:39')[0m
+  [4;35;1mEmployeeProperty Create (0.3ms)[0m   [0mINSERT INTO "employee_properties" ("department", "updated_at", "reports_to", "employee_id", "created_at") VALUES('Sales', '2009-08-24 11:12:39', 123, 1, '2009-08-24 11:12:39')[0m
+  [4;36;1mEmployeeProperty Load (0.3ms)[0m   [0;1mSELECT * FROM "employee_properties" WHERE ("employee_properties".employee_id = 935) LIMIT 1[0m
+  [4;35;1mEmployeeProperty Update (0.3ms)[0m   [0mUPDATE "employee_properties" SET "employee_id" = 935, "updated_at" = '2009-08-24 11:12:39' WHERE "id" = 268[0m
+  [4;36;1mEmployee Create (0.4ms)[0m   [0;1mINSERT INTO "people" ("name", "updated_at", "type", "email", "created_at") VALUES('Dovadi', '2009-08-24 11:12:39', 'Employee', 'frank@dovadi.com', '2009-08-24 11:12:39')[0m
+  [4;35;1mEmployeeProperty Create (0.2ms)[0m   [0mINSERT INTO "employee_properties" ("department", "updated_at", "reports_to", "employee_id", "created_at") VALUES(NULL, '2009-08-24 11:12:39', NULL, 936, '2009-08-24 11:12:39')[0m
+  [4;36;1mEmployeeProperty Update (0.4ms)[0m   [0;1mUPDATE "employee_properties" SET "reports_to" = 200, "updated_at" = '2009-08-24 11:12:39' WHERE "id" = 269[0m
+  [4;35;1mEmployee Load (0.4ms)[0m   [0mSELECT * FROM "people" WHERE ("people"."id" = 936) AND ( ("people"."type" = 'Employee' ) ) [0m
+  [4;36;1mEmployeeProperty Load (0.4ms)[0m   [0;1mSELECT * FROM "employee_properties" WHERE ("employee_properties".employee_id = 936) LIMIT 1[0m
+  [4;35;1mManager Create (0.4ms)[0m   [0mINSERT INTO "people" ("name", "updated_at", "type", "email", "created_at") VALUES(NULL, '2009-08-24 11:12:39', 'Manager', NULL, '2009-08-24 11:12:39')[0m
+  [4;36;1mPerson Create (0.3ms)[0m   [0;1mINSERT INTO "people" ("name", "updated_at", "type", "email", "created_at") VALUES('name-1', '2009-08-24 11:12:39', NULL, 'person1@example.com', '2009-08-24 11:12:39')[0m
