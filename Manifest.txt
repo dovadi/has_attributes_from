@@ -2,6 +2,7 @@ History.txt
 Manifest.txt
 README.textile
 Rakefile
+init.rb
 lib/has_attributes_from/base.rb
 lib/has_attributes_from.rb
 tasks/has_attributes_from.rake
@@ -22,6 +23,7 @@ test/rails_root/db/migrate/20090820105521_create_employee_properties.rb
 test/rails_root/db/migrate/20090820110621_create_customer_details.rb
 test/rails_root/db/schema.rb
 test/rails_root/db/test.sqlite3
+test/rails_root/log/
 test/test_helper.rb
 test/unit/customer_detail_test.rb
 test/unit/customer_test.rb
