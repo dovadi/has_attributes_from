@@ -14,12 +14,12 @@ h2. Example:
 create_table "child_details", :force => true do |t|
   t.string   "nickname"
   t.string   "allergy"
-  t.integer  "client_id"
+  t.integer  "child_id" :belongs_to :child
 end
 
 create_table "caretaker_details", :force => true do |t|
   t.string   "relation"
-  t.integer  "caretaker_id"
+  t.integer  "caretaker_id" #belongs_to :caretaker
 end
 
 create_table "people", :force => true do |t|
