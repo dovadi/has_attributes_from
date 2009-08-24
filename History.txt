@@ -1,3 +1,7 @@
+=== 0.1.4 2009-08-24
+
+* Created a log folder, to prevent a failing build of the gem on Github
+
 === 0.1.3 2009-08-24
 
 * Added init.rb so has_attribute_from can be installed as a plugin
