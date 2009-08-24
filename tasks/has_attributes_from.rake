@@ -15,7 +15,7 @@ task :default => ['test:has_attributes_from']
 namespace :has_attributes_from do
   gem_spec = Gem::Specification.new do |gem_spec|
     gem_spec.name        = "has_attributes_from"
-    gem_spec.version     = "0.1.5"
+    gem_spec.version     = "0.1.6"
     gem_spec.summary     = "Merge the attributes from another ActiveRecord class to an individual STI subclass."
     gem_spec.email       = "frank.oxener@dovadi.com"
     gem_spec.homepage    = "http://github.com/dovadi/has_attributes_from"

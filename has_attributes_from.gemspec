@@ -1,7 +1,7 @@
 --- !ruby/object:Gem::Specification 
 name: has_attributes_from
 version: !ruby/object:Gem::Version 
-  version: 0.1.5
+  version: 0.1.6
 platform: ruby
 authors: 
 - Frank Oxener
