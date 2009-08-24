@@ -1,7 +1,11 @@
-=== 0.0.1 2009-08-20
+=== 0.1.3 2009-08-24
 
-* Initial release
+* Added init.rb so has_attribute_from can be installed as a plugin
 
 === 0.1.2 2009-08-21
 
 * Rename gem to 'has_attributes_from' and some cleanup of the code
+
+=== 0.0.1 2009-08-20
+
+* Initial release
