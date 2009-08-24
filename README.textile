@@ -51,7 +51,7 @@ caretaker.update_attribute(:relation, 'Daddy')
 h2. Install:
 
 <pre>
-h4. As a gem
+As a gem:
 
 *  sudo gem install dovadi-has_attributes_from -s http://gems.github.com or
 *  Add the following to your environment.rb:
@@ -61,7 +61,7 @@ config.gem 'dovadi-has_attributes_from',
            :version => '>=0.1.1',
            :source => 'http://gems.github.com'
 
-h4. As a plugin
+As a plugin:
 
 *  ./script/plugin install git://github.com/dovadi/has_attributes_from.git
 </pre>
